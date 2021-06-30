@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<meta charset="	UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registration page</title>
+	<style type="text/css">
+		body{  
+			background-image: url('images.jpg');
+			text-align: center;
+		}
+		.container{
+			padding: 1px 1px 1px 1px;
+		}
+	</style>
+	<script>
+		 function execute(){
+		 var inp1=getElementById('c').value;
+         var inp2=getElementById('d').value;
+              if(inp1!=inp2){
+         	  document.getElementById("e").innerHTML = "**Password length must be atleast 8 characters";}
+  
+     }
+	</script>
+</head>
+<body><br><br><br><br>
+<h1 class="h_1">SIGN-UP</h1>
+<div class="container">
+	<form onsubmit="execute();">
+		<div id="a">Username:</div>
+		<input id="aa" type="text" placeholder="xyz">
+		<div id="b">Email:</div>
+		<input id="bb" type="email" placeholder="abc@gmail.com">
+	    <div id="c">Password:</div>
+		<input id="cc" type="Password" placeholder="xxxx">
+		<div id="d">Re-enter Password:</div><div id="f"></div>
+		<input id="dd" type="Password" placeholder="xxxx">
+		<br>
+		<input id="e" type="submit" value="Sign Up">
+ 	</form>
+	</div>
+</body>
+</html>
