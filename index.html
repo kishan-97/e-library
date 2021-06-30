@@ -14,11 +14,11 @@
 		}
 	</style>
 	<script>
-		 function execute(){
+		 function exec(){
 		 var inp1=getElementById('c').value;
          var inp2=getElementById('d').value;
-              if(inp1!=inp2){
-         	  document.getElementById("e").innerHTML = "**Password length must be atleast 8 characters";}
+              if(inp1.localCompare(inp2)==){
+         	  alert("registration successful");
   
      }
 	</script>
@@ -36,7 +36,7 @@
 		<div id="d">Re-enter Password:</div><div id="f"></div>
 		<input id="dd" type="Password" placeholder="xxxx">
 		<br>
-		<input id="e" type="submit" value="Sign Up" onclick="registration succesfull">
+		<input id="e" type="submit" value="Sign Up" onclick="exec()">
  	</form>
 	</div>
 </body>
