@@ -15,8 +15,20 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url("lib.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+.heading {
+  height: 55px;
+  width: 300px;
+  background-color: rgba(0, 17, 255, 0.445);
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: rgb(179, 244, 255);
+  text-shadow: 2px;
+}
 .container {
   display: flex;
   height: 50vh;
